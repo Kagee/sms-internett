@@ -1,0 +1,4 @@
+#! /bin/bash
+NUMBER=$(dialog --inputbox 'Mobile Number' 8 10 --stdout)
+MESSAGE=$(dialog --inputbox 'Message' 12 12 --stdout)
+./send-sms '$NUMBER' '$MESSAGE'
