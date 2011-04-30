@@ -1,0 +1,2 @@
+Request: https://telenormobil.no/ums/smapi/input?sender=<sender>&password=<password>&recipients=<recipient>&sId=1000000000&deliveryNotificationNumber=<dNNumber>&content=<msg>
+<?xml version="1.0"?><SMS_INTERNETT version="2.0"><RESPONSE processed="OK"><BASIC_DATA sender="+47<sender>" billedNumber="+47<sender>" sId="1000000000" deliveryNotificationNumber="+47<dNNUmber>"/><RECIPIENT status="OK" address="+47<recipient>"/></RESPONSE></SMS_INTERNETT>
