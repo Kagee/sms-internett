@@ -1,0 +1,5 @@
+#! /bin/bash
+conf_folder=${XDG_CONFIG_HOME:-~/.config}
+echo XDG_CONFIG_HOME is: $conf_folder
+SMS_INTERNETT_CONFIG=$conf_folder/sms-internett/sms-internett
+echo Our config folder is : $SMS_INTERNETT_CONFIG
