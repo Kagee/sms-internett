@@ -1,5 +1,6 @@
 #! /bin/bash
 FROM=$1
+# MESSAGE must be RFC2396-encoded, no Unicode or UTF8, space encoded as ‘+’
 MESSAGE=$2
 URL=https://telenormobil.no/ums/smapi/input?sender=$FROM&password=$PASSWORD&recipients=$FROM&sId=1000000000&content=$MESSAGE
 echo Number is: $FROM
